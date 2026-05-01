@@ -1,7 +1,7 @@
 // Weekend Warriors — API Client
 // When served from the same FastAPI server, use relative path.
 // For local file:// development, change to 'http://localhost:8000/api/v1'.
-const API_BASE = 'https://slug-trio-chance.ngrok-free.dev/api/v1';
+const API_BASE = 'https://weekend-warriors-api.onrender.com/api/v1';
 
 const api = {
   async _get(path) {
