@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1a0b">
+  <title>イベント詳細 — Weekend Warriors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">🏌️</span>
+        <div>
+          <span class="logo-name">Weekend Warriors</span>
+          <span class="logo-sub">Golf Community</span>
+        </div>
+      </a>
+      <a href="index.html" class="back-btn">← 一覧へ</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="loading" class="loading-box">
+      <div class="spinner"></div>
+      <span>読み込み中…</span>
+    </div>
+
+    <div id="error" class="error-box hidden"></div>
+
+    <div id="container" class="hidden">
+      <div id="event-header"></div>
+      <div id="players-panel" class="mt"></div>
+    </div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/event.js"></script>
+</body>
+</html>
